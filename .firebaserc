@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "lop-van-chi-linh"
+  },
+  "targets": {
+    "lop-van-chi-linh": {
+      "hosting": {
+        "lopvanchilinh": [
+          "lopvanchilinh.web.app"
+        ]
+      }
+    }
+  }
+}

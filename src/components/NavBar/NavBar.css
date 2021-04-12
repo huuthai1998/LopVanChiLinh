@@ -1,0 +1,13 @@
+.nav-bar {
+  grid-template-columns: 20vw 10vw 1fr;
+  font-family: 'Roboto Slab', serif;
+}
+
+.navButton:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.dropdownNav {
+  background-color: #330066;
+}

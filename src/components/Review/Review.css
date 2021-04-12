@@ -1,0 +1,15 @@
+.reviews-first {
+  grid-template-columns: 1fr 1.6fr;
+  column-gap: 20px;
+  object-fit: scale-down;
+}
+
+.reviews-second {
+  grid-template-columns: 1.6fr 1fr;
+  column-gap: 20px;
+  object-fit: scale-down;
+}
+
+.quote {
+  font-family: 'Josefin Sans', sans-serif;
+}

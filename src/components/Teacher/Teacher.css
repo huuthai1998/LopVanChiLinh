@@ -1,0 +1,76 @@
+.teacher-grid {
+  grid-template-rows: 1 1.6;
+}
+
+.resume-button {
+  border: 1px black solid;
+  z-index: 2;
+}
+
+.resume-button:hover {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 40px 0px #543884;
+  -moz-box-shadow: 0px 0px 40px 0px #543884;
+  box-shadow: 0px 0px 40px 0px #543884;
+  transform: scale(120%);
+}
+
+/* .resumeWrapper:hover .effect-1,
+.resumeWrapper:hover .effect-2 {
+  display: block;
+} */
+
+.effect-1,
+.effect-2 {
+  border-radius: 30%;
+  display: none;
+  mix-blend-mode: multiply;
+  height: 84%;
+  opacity: 1;
+  position: absolute;
+  width: 84%;
+  z-index: 1;
+}
+
+.effect-1 {
+  animation: rotate 1.8s linear infinite;
+  background: cyan;
+}
+
+.effect-2 {
+  animation: rotate 1.2s linear reverse infinite;
+  background: #e7a9ff;
+}
+
+@keyframes rotate {
+  0% {
+    top: 0;
+    left: 8%;
+  }
+  25% {
+    top: 8%;
+    left: 0%;
+  }
+  50% {
+    top: 16%;
+    left: 8%;
+  }
+  75% {
+    top: 8%;
+    left: 16%;
+  }
+  100% {
+    top: 0;
+    left: 8%;
+  }
+}
+
+.sleep {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 50%;
+  height: 50%;
+  margin: 25%;
+  width: 50%;
+}
