@@ -1,4 +1,3 @@
-Website Lớp Văn Chị Linh
+Website Lớp Văn Chị Linh (React.js + TailwindCSS)
 
-React.js + TailwindCSS
 http://lopvanchilinh.web.app/
