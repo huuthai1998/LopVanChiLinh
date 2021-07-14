@@ -7,52 +7,31 @@ import achievement from '../../resources/achievement.png'
 const Tiles = () => {
   return (
     <div className="relative w-full">
-      <div className="features-wraps flex-col md:flex-row flex w-full justify-between md:absolute">
-        <div className="mx-auto md:mx-0 feature-item green rounded-full text-center my-4 md:my-0 h-72 w-72 md:h-64 lg:h-72 2xl:h-80 md:w-64 lg:w-72 2xl:w-80">
-          <div className="flex justify-center">
-            <img
-              src={teacher}
-              alt=""
-              className="h-16 w-16 xl:h-20 xl:w-20 sm:mb-4"
-            />
-          </div>
-          <p className="features-header font-bold text-md lg:text-lg text-center">
-            Giáo viên tận tâm với nghề
-          </p>
-          <p className="p-content text-sm lg:text-md my-2">
-            Tăng tiết học miễn phí luyện thi. Tận tình giải đáp các thắc mắc của
-            học sinh 24/7
+      <div className="features-wraps flex-col md:flex-row flex w-full justify-between">
+        <div className="mx-auto md:mx-0 border-green-500  border text-black flex flex-col justify-center rounded-full text-center my-4 md:my-0 h-72 w-72 md:h-64 lg:h-72 2xl:h-80 md:w-64 lg:w-72 2xl:w-80">
+          <h2 className="uppercase features-header font-bold text-md lg:text-lg text-center">
+            Kinh nghiệm
+          </h2>
+          <p className="p-content text-xl text-sm lg:text-md">
+            Có kinh nghiệm trong việc dạy học, ôn thi tuyển sinh, đại học, luyện
+            thi học sinh giỏi
           </p>
         </div>
-        <div className="mx-auto md:mx-0 feature-item orange rounded-full text-center my-4 md:my-0 h-72 w-72 md:h-64 lg:h-72 2xl:h-80 md:w-64 lg:w-72 2xl:w-80">
-          <div className="flex justify-center">
-            <img
-              src={phuongphap}
-              alt=""
-              className="h-16 w-16 xl:h-20 xl:w-20 sm:mb-4"
-            />
-          </div>
-          <p className="features-header font-bold text-md lg:text-lg text-center">
-            Phương pháp giảng dạy chuyên nghiệp
-          </p>
-          <p className="p-content text-sm lg:text-md my-2">
-            Phương pháp giảng dạy theo mô hình dự án mới nhất của bộ giáo dục
+        <div className="mx-auto md:mx-0 border-green-500  border text-black flex flex-col justify-center rounded-full text-center my-4 md:my-0 h-72 w-72 md:h-64 lg:h-72 2xl:h-80 md:w-64 lg:w-72 2xl:w-80">
+          <h2 className="uppercase features-header font-bold text-md lg:text-lg text-center">
+            Hình thức
+          </h2>
+          <p className="p-content text-xl text-sm lg:text-md">
+            Hình thức dạy học đa dạng, phục vụ tất cả nhu cầu của học sinh: Trực
+            tiếp - Trực tuyến
           </p>
         </div>
-        <div className="mx-auto md:mx-0 feature-item red rounded-full text-center my-4 md:my-0 h-72 w-72 md:h-64 lg:h-72 2xl:h-80 md:w-64 lg:w-72 2xl:w-80">
-          <div className="flex justify-center">
-            <img
-              src={achievement}
-              alt=""
-              className="h-16 w-16 xl:h-20 xl:w-20 sm:mb-4"
-            />
-          </div>
-          <p className="features-header font-bold text-md lg:text-lg text-center">
-            100% tỉ lệ tốt nghiệp
-          </p>
-          <p className="p-content text-sm lg:text-md my-2">
-            Học sinh đỗ vào các trường danh tiếng của thành phố như: Nguyễn
-            Thượng Hiền, Đại học sự phạm,...
+        <div className="mx-auto md:mx-0 border-green-500  border text-black flex flex-col justify-center rounded-full text-center my-4 md:my-0 h-72 w-72 md:h-64 lg:h-72 2xl:h-80 md:w-64 lg:w-72 2xl:w-80">
+          <h2 className="uppercase features-header font-bold text-md lg:text-lg text-center">
+            Thành Tích
+          </h2>
+          <p className="p-content text-xl text-sm lg:text-md">
+            Học sinh đạt điểm tốt, hài lòng với lớp học
           </p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import DropDownNavBar from 'components/DropDownNavBar/DropDownNavBar'
 import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../resources/logo.png'
+import logo from '../../resources/trans-logo.png'
 import './AlternateNavBar.css'
 
 const AlternateNavBar = () => {
@@ -37,19 +37,13 @@ const AlternateNavBar = () => {
             </div>
           </div>
           <div className="hidden sm:flex justify-between">
-            <Link to="/" className="text-white navButton text-xl font-bold">
+            <Link to="/" className="navButton text-xl font-bold">
               Về chúng tôi
             </Link>
-            <Link
-              to="/schedule"
-              className="text-white navButton text-xl font-bold"
-            >
+            <Link to="/schedule" className="navButton text-xl font-bold">
               Lịch / Học phí
             </Link>
-            <Link
-              to="/gallery"
-              className="text-white navButton text-xl font-bold"
-            >
+            <Link to="/gallery" className="navButton text-xl font-bold">
               Hình ảnh
             </Link>
           </div>

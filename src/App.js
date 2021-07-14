@@ -22,7 +22,7 @@ const App = () => {
           <Gallery />
         </Route>
         <Route path="/">
-          <NavBar />
+          <AlternateNavBar />
 
           <Introduction />
           <Frontpage />
